@@ -1,0 +1,212 @@
+#directions{
+    text-align: center;
+    color: rgb(138, 136, 136);
+}
+
+#center{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image:url(../images/Earth_and_Moon.jpg);
+    
+}
+
+@font-face {
+    src: url(../fonts/AstroSpace-eZ2Bg.ttf);
+    font-family: astrospace2;
+
+}
+
+
+nav{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    float: left;
+    top: 0;
+    position: fixed;
+}
+
+nav li{ 
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:none;
+}
+
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.active{
+    background-color: maroon;
+}
+
+.nest{
+    width: 100%;
+}
+
+.egg{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.egg h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: astrospace2;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.egg img{
+    width: 760px;
+    height: 580px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.gull1{
+    width: 8%;
+    margin-left: 1%;
+    margin-right: 1%;  
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center; 
+}
+
+.gull2{
+    display: inline-flex;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px;
+    position: relative;
+    font-family: astrospace2;
+    color: white;
+    padding-top: 0px;
+
+}
+
+.gull2:hover{
+    background-color: white;
+    color: black;
+}
+
+.gull3{
+    width: 28%;
+    margin-left: 1%;
+    margin-right: 1%;  
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center;
+}
+
+.gull4{
+    width: 38%;
+    margin-left: 1%;
+    margin-right: 1%;  
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center;
+}
+
+.gull5{
+    font-size: 20px;
+    font-family: astrospace2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.gull6{
+    width: 58%;
+    margin-left: 1%;
+    margin-right: 1%;  
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center;
+}
+
+.gull7{
+    width: 68%;
+    margin-left: 1%;
+    margin-right: 1%;  
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center;
+}
+
+.gull8{
+    width: 78%;
+    margin-left: 1%;
+    margin-right: 1%;  
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center;
+}
+
+.gull9{
+    width: 88%;
+    margin-left: 1%;
+    margin-right: 1%;  
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center;
+}
+
+.gull10{
+    width: 98%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+

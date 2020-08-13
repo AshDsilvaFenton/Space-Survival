@@ -1,0 +1,80 @@
+body{
+    background-image: url(../images/Earth_and_Moon.jpg);
+    
+}
+
+embed {
+    width: 2px;
+    height: 0px;
+}
+
+.imagebox {
+
+    background-image: url(../images/ship_interior_onfire.jpg);
+    background-repeat: no-repeat;
+    width: 860px;
+    height: 680px;
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 10px;
+
+}
+
+@font-face {
+    src: url(../fonts/AstroSpace-eZ2Bg.ttf);
+    font-family: astrospace2;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: astrospace2;
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: astrospace2;
+}
+
+ul {
+    text-align: center;
+    
+}
+
+
+li{
+    display: inline-flex;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    top: 600px;
+    font-family: astrospace2;
+
+}
+
+li a{
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: none;
+    position: relative;
+    left: 0px;
+    
+   
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
